@@ -7,7 +7,8 @@ body {
 .flag {
     border: 5px solid white;
     position: relative;
-    top: 10px;
+    top: 150px;
+    left: 50px;
     
     width: 900px;
    
@@ -112,4 +113,14 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+
+p {
+    color: white;
+    position: absolute;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 5rem;
+    left: 350px;
 }
